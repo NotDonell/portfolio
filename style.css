@@ -1,0 +1,150 @@
+section {
+    background-color: #EFF5F5;
+}
+p{
+    margin: 20;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.hero {
+    background-color: #767676;
+color:#6b0505;
+    height: 100vh;
+
+}
+
+footer {
+    background-color: #767676;
+    color: #6b0505;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+    color: #6b0505;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.hero-text {
+    margin-left: 80px;
+    color: #6b0505;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background-color:#767676;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+body{
+    font-family: 'Poppins', sans-sherif;
+}
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.button:hover{
+    background-color:#c2c2c2 ;
+}
+.button:active{
+    background-color: #;
+    color: #;
+}
+.logo{
+    height: 80px;
+    margin: 30px;
+}
+.socials{
+    padding-bottom: 200px;
+}
+.social{
+    margin: 20px;
+}
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    color: #6b0505;
+}
+h2{
+    font-size: 50px;
+}
+.headshot{
+    width: 300px;
+    border-radius: 300px;
+}
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+.project-card{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px grey;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+}
+.project-link{
+    text-decoration: none;
+    color: #EB6440;
+}
+.project-image{
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #6b0505;
+}
+@media only screen and (max-width:1000px) {
+    .project-container{
+        display: flex;
+        flex-wrap:wrap; }
+        ul{
+            display: none;
+        }
+}
